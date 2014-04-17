@@ -1,0 +1,117 @@
+header ul {
+	float: right;
+	margin: 13px 25px 0px 0px;
+}
+
+li {
+	position: relative;
+	display: inline;
+	margin: 7px;
+	font-family: arial,sans-serif;
+	color: #666;
+	font-size: 13px;
+}
+
+form {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+input {
+	clear:both;
+	display: inline-block;
+	background: url('images/microphone.png') no-repeat right center;
+    background-size: 24px;
+    border: 1px solid #D8D8D8;
+    width: 560px;
+    padding: 6px 6px 6px 6px;
+}
+
+input:hover {
+    border: 1px solid #C0C0C0;
+}
+
+input:active {
+    border: 1px solid #8A8A86	
+}
+
+input:focus {
+    border: solid 1px #4285F4;
+    outline: none;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	border: 1px solid #D8D8D8;
+    background-color: #f2f2f2;
+    font: bold 11px/27px Arial,sans-serif;
+    margin: 15px 7px;
+}
+
+button:hover {
+	box-shadow: 0px 0px 4px 0px #C0C0C0;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	line-height: 40px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	min-width: 980px;
+	display: block;
+}
+
+.SignIn {
+	font-weight: bold;
+	padding: 6px 11px 6px 11px;
+	color: #fff;
+	border-radius: 3px;
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+}
+
+#ad li {
+	margin: 10px -3px 10px 30px;
+}
+
+#update li {
+	margin: 10px 30px 10px 10px;
+}
+
+#ad {
+	float: left;
+	margin: 0px;
+}
+
+#update {
+	float: right;
+	margin: 0px;
+}
+
+#logo {
+	text-align: center;
+	clear: both;	
+}
+
+#logo img {
+	margin: 155px 0px 15px 0px;
+	width: 269px;
+	height: 95px;
+}
+
+#grid {
+	width: 22px;
+	position: relative;
+	top: 6px;
+}
